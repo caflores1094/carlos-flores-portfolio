@@ -1,0 +1,7 @@
+Notes:
+
+Continue on:
+  - make the works sections (grid formation)
+make a works.html for all of my works
+  - maybe give each work it's own page? idk yet. maybe a click to open it's page (future)
+  -when works.html is done, don't forget to link it to the navbar option
