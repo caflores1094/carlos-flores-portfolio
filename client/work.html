@@ -69,19 +69,19 @@
       <h1>My Portfolio</h1>
       
       <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a data-toggle="modal" data-target="#sembly"><img src="assets/img/portfolio/sembly.jpg" class="appPrev"></a>
+        <a data-toggle="modal" data-target="#semblyModal"><img src="assets/img/portfolio/sembly.jpg" class="appPrev"></a>
         <p class="app-title">Sembly</p>
         <p class="app-brief">Social event planning and coordination for groups mobile app</p>
       </div>
 
       <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href="work.html"><img src="assets/img/portfolio/drawmie2.png" class="appPrev"></a>
+        <a data-toggle="modal" data-target="#drawmieModal"><img src="assets/img/portfolio/drawmie2.png" class="appPrev"></a>
         <p class="app-title">Drawmie</p>
         <p class="app-brief">Real-time communication and whiteboarding for groups</p>
       </div>
 
       <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href="work.html"><img src="assets/img/portfolio/shopvr.jpg" class="appPrev"></a>
+        <a data-toggle="modal" data-target="#shopvrModal"><img src="assets/img/portfolio/shopvr.jpg" class="appPrev"></a>
         <p class="app-title">ShopVR</p>
         <p class="app-brief">Shopping aid that provides a social and unique shopping experience</p>
       </div>
@@ -110,9 +110,10 @@
 
 
 <!-- Modals -->
-<div id="sembly" class="modal fade" role="dialog">
-  <div class="modal-dialog">
 
+<!-- SEMBLY -->
+<div id="semblyModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
     <!-- Modal content-->
     <div class="modal-content">
       <div class="modal-header">
@@ -120,15 +121,234 @@
         <h4 class="modal-title">Sembly</h4>
       </div>
       <div class="modal-body">
-        <p>- Built multi-view front end in React Native to create a responsive and performant iOS application<br />- Rendered map view with Airbnb’s React Native Maps in order to work with a more intuitive, feature filled component<br />- Integrated Express, NodeJS, and Mongoose to save and serve variably sized, user generated mobile data</p>
+
+        <div class="features">
+          <img src="assets/img/portfolio/SemblyMap.png" class="featurePic">
+          <div class="feature-description">
+            <h5>Check nearby events</h5>
+            <p>
+              The city is always bustling. Find all the nearby events in your area. Whether you're trying to find a group of guys to play a quick pick up game or you're trying to meet up with friends for happy hour, Sembly will get you to where you need to go. Invite your friends
+            </p>
+          </div>
+        </div>
+
+        <div class="features">
+          <img src="assets/img/portfolio/semblyFeed.png" class="featurePic">
+          <div class="feature-description">
+            <h5>Events Feed</h5>
+            <p>
+              Coordinate when and where to meet with people with similar interests. Scroll through either your friends' event feed or the public feed to find the perfect event to join.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="features last-feature">
+          <img src="assets/img/portfolio/semblyEvent.png" class="featurePic">
+          <div class="feature-description">
+            <h5>Scope out an event</h5>
+            <p>
+              Check out event details and save it for later. See who's invited and who's planning on going. Can't decided whether or not you should check out an event? See who's already checked in there.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="tech-stack">
+          <h5 class="modal-section-title">Tech Stack</h5>
+            <ul class="tech-stack-description">
+              <li>
+                Multi-view front end in React Native to create a responsive and performant iOS application
+              </li>
+              <li>
+                Rendered map view with Airbnb’s React Native Maps in order to work with a more intuitive, feature filled component
+              </li>
+              <li>
+                Integrated Express, NodeJS, and Mongoose to save and serve variably sized, user generated mobile data
+              </li>
+              <li>
+                Test Driven Development with the use of Mocha and Chai
+              </li>
+            </ul>
+        </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
-
   </div>
 </div>
+
+<!-- SHOPVR -->
+<div id="shopvrModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">ShopVR</h4>
+      </div>
+      <div class="modal-body">
+
+        <div class="features">
+          <img src="assets/img/portfolio/shopvrFeed.png" class="featurePic shopvr">
+          <div class="feature-description">
+            <h5>Explore recommended items</h5>
+            <p>
+              Filter through recommended items, search by keyword, filter through results by price, retailer, or category
+            </p>
+          </div>
+        </div>
+
+        <div class="features">
+          <img src="assets/img/portfolio/shopvr.jpg" class="featurePic shopvr">
+          <div class="feature-description">
+            <h5>Virtual Mall</h5>
+            <p>
+              Want to see the search item in a different, more interactive level? Explore the virtual mall full of the items from your search results.
+            </p>
+          </div>
+        </div>
+        <div class="features">
+          <img src="assets/img/portfolio/shopvrVRLike.png" class="featurePic shopvr">
+          <div class="feature-description">
+            <h5>Virtual reality interactions</h5>
+            <p>
+              Like something you see? "Heart" an item to save it directly to your wishlist while inside of the virtual shopping space
+            </p>
+          </div>
+        </div>
+
+
+        <div class="features">
+          <img src="assets/img/portfolio/shopvrWishlist.png" class="featurePic shopvr">
+          <div class="feature-description">
+            <h5>Save a wishlist</h5>
+            <p>
+              Liked a bunch of items? Save it to your wishlist for later or to share with your friends.
+            </p>
+          </div>
+        </div>
+
+        <div class="features">
+          <img src="assets/img/portfolio/shopvrChat.png" class="featurePic shopvr">
+          <div class="feature-description">
+            <h5>Chat about your wishlist</h5>
+            <p>
+              Like something but can't decide if you really want to buy it? Invite your friend into at chatroom for bidirectional, real-time, event-driven messaging.
+            </p>
+          </div>
+        </div>
+
+        <div class="features last-feature">
+          <img class="featurePic shopvr" src="https://i.imgflip.com/1f62g7.gif" title="VR Demo"/>
+          <div class="feature-description">
+            <h5>Enjoy Exploring!</h5>
+            <p>
+              Go through every store and view every item grouped categorically, perhaps take a dip in our lovely fountain?
+            </p>
+          </div>
+        </div>
+
+        <div class="tech-stack">
+          <h5 class="modal-section-title">Tech Stack</h5>
+            <ul class="tech-stack-description">
+              <li>
+                Created VR retail space with Aframe-React for seamless data transfer between real and virtual environments
+              </li>
+              <li>
+                Integrated Google Cloud Vision API with personalized recommendation preferences for fast, accurate results
+              </li>
+              <li>
+                Constructed a modular front end with React for fast re-rendering of dynamic data
+              </li>
+              <li>
+                Application is served with a server built with Node and Express
+              </li>
+              <li>
+                Architected relational schema with MySQL for fast and efficient querying
+              </li>
+              <li>
+                Test Driven Development with the use of Mocha and Chai
+              </li>
+            </ul>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- DRAWMIE -->
+<div id="drawmieModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Sembly</h4>
+      </div>
+      <div class="modal-body">
+
+        <div class="features">
+          <img src="assets/img/portfolio/SemblyMap.png" class="featurePic">
+          <div class="feature-description">
+            <h5>Check nearby events</h5>
+            <p>
+              The city is always bustling. Find all the nearby events in your area. Whether you're trying to find a group of guys to play a quick pick up game or you're trying to meet up with friends for happy hour, Sembly will get you to where you need to go. Invite your friends
+            </p>
+          </div>
+        </div>
+
+        <div class="features">
+          <img src="assets/img/portfolio/semblyFeed.png" class="featurePic">
+          <div class="feature-description">
+            <h5>Events Feed</h5>
+            <p>
+              Coordinate when and where to meet with people with similar interests. Scroll through either your friends' event feed or the public feed to find the perfect event to join.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="features last-feature">
+          <img src="assets/img/portfolio/semblyEvent.png" class="featurePic">
+          <div class="feature-description">
+            <h5>Scope out an event</h5>
+            <p>
+              Check out event details and save it for later. See who's invited and who's planning on going. Can't decided whether or not you should check out an event? See who's already checked in there.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="tech-stack">
+          <h5 class="modal-section-title">Tech Stack</h5>
+            <ul class="tech-stack-description">
+              <li>
+                Multi-view front end in React Native to create a responsive and performant iOS application
+              </li>
+              <li>
+                Rendered map view with Airbnb’s React Native Maps in order to work with a more intuitive, feature filled component
+              </li>
+              <li>
+                Integrated Express, NodeJS, and Mongoose to save and serve variably sized, user generated mobile data
+              </li>
+              <li>
+                Test Driven Development with the use of Mocha and Chai
+              </li>
+            </ul>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
 

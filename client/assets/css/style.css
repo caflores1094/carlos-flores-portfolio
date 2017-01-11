@@ -249,7 +249,6 @@ h1, h2, h3, h4, h5, h6 {
   /*display: inline-block;*/
   text-align: center;
   /*margin: 10 0px;*/
-  border: 1px solid purple;
   padding: 40px;
 }
 
@@ -258,6 +257,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-shadow: 1px 1px 5px 0px rgba(140,138,140,1);
   -moz-box-shadow: 1px 1px 5px 0px rgba(140,138,140,1);
   box-shadow: 1px 1px 5px 0px rgba(140,138,140,1);
+  cursor: pointer;
 }
 
 .app-title {
@@ -268,42 +268,71 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.myModal {
-  /*display: none;*/
-  position: fixed;
-  z-index: 20;
-  padding-top: 200px;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: #000;
-  background-color: rgba(0,0,0,0.4);
+.modal-dialog {
+  width: 90%;
 }
 
-.modal-content{
-  position: relative;
-  background-color: #fefefe;
-  margin: auto;
+.modal-header {
+  text-align: center;
+}
+
+.modal-title{
+  font-size: 4vw;
+}
+
+.modal-section-title{
+  font-size: 2.3vw;
+  left: 45%;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.tech-stack {
+  text-align: center;
+}
+.tech-stack-description {
+  text-align: left;
+  margin-left: 9%;
+  margin-right: 5%;
   padding: 0;
-  border: 1px solid #888;
-  width: 80%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-  /*-webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animatetop;
-    animation-duration: 0.4s*/
 }
 
-/* Add Animation */
-@-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0} 
-    to {top:0; opacity:1}
+.features  {
+  margin: 30px 0px 50px 0px;
+  padding-right: 8%;
 }
 
-@keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
+.features h5{
+  font-size: 2.3vw;
+  margin-top: 0;
 }
 
+.featurePic {
+  width: 24%;
+  -webkit-box-shadow: 1.5px 1.5px 5px 0px rgba(122,122,122,1);
+  -moz-box-shadow: 1.5px 1.5px 5px 0px rgba(122,122,122,1);
+  box-shadow: 1.5px 1.5px 5px 0px rgba(122,122,122,1);
+}
+
+.featurePic.shopvr {
+  width: 35%;
+}
+
+
+.feature-description {
+  float: right;
+  width: 50%;
+  font-size: 1.5vw;
+}
+
+.feature-description p{
+  max-height: 50%;
+  font-size: 1.5vw;
+}
+
+.last-feature {
+  border-bottom: 1px solid #d5d5d5;
+  padding-bottom: 50px;
+}
