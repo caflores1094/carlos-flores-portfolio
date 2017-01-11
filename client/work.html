@@ -43,14 +43,13 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="/">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
-            <li><a href="/works">Works</a></li>
+            <li class="active"><a href="/works">Works</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
-
 
 	<div id="workwrap">
 	    <div class="container">
@@ -70,20 +69,33 @@
       <h1>My Portfolio</h1>
       
       <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-        <a href="work.html"><img src="assets/img/portfolio/sembly.jpg" class="appPrev"></a>
+        <a data-toggle="modal" data-target="#sembly"><img src="assets/img/portfolio/sembly.jpg" class="appPrev"></a>
         <p class="app-title">Sembly</p>
         <p class="app-brief">Social event planning and coordination for groups mobile app</p>
       </div>
+
       <div class="col-lg-4 col-md-4 col-sm-4 gallery">
         <a href="work.html"><img src="assets/img/portfolio/drawmie2.png" class="appPrev"></a>
         <p class="app-title">Drawmie</p>
         <p class="app-brief">Real-time communication and whiteboarding for groups</p>
       </div>
+
       <div class="col-lg-4 col-md-4 col-sm-4 gallery">
         <a href="work.html"><img src="assets/img/portfolio/shopvr.jpg" class="appPrev"></a>
         <p class="app-title">ShopVR</p>
         <p class="app-brief">Shopping aid that provides a social and unique shopping experience</p>
       </div>
+      <!-- RECALL OFFSET TO HAVE SPACE BEFORE AND AFTER COLUMN
+      <div class="col-lg-5 col-lg-offset-1 col-md-4 col-sm-4 gallery">
+        <a href="work.html"><img src="assets/img/portfolio/sembly.jpg" class="appPrev"></a>
+        <p class="app-title">Sembly</p>
+        <p class="app-brief">Social event planning and coordination for groups mobile app</p>
+      </div>
+      <div class="col-lg-5 col-md-4 col-sm-4 gallery">
+        <a href="work.html"><img src="assets/img/portfolio/drawmie2.png" class="appPrev"></a>
+        <p class="app-title">Drawmie</p>
+        <p class="app-brief">Real-time communication and whiteboarding for groups</p>
+      </div> -->
       <!-- <div class="col-lg-4 col-md-4 col-sm-4 gallery">
         <a href="work.html"><img src="assets/img/portfolio/folio04.png" class="img-responsive"></a>
       </div>
@@ -95,6 +107,30 @@
       </div> -->
     </div><! --/row -->
   </div><! --/container -->
+
+
+<!-- Modals -->
+<div id="sembly" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Sembly</h4>
+      </div>
+      <div class="modal-body">
+        <p>- Built multi-view front end in React Native to create a responsive and performant iOS application<br />- Rendered map view with Airbnb’s React Native Maps in order to work with a more intuitive, feature filled component<br />- Integrated Express, NodeJS, and Mongoose to save and serve variably sized, user generated mobile data</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
 
   <!-- <section class='works'>
     <div class="container">
