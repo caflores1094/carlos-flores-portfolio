@@ -170,11 +170,11 @@ h1, h2, h3, h4, h5, h6 {
 #workwrap {	
 	background: url(../img/work.jpg) no-repeat center top;
 	margin-top: -70px;
-	padding-top: 250px;
+	padding-top: 175px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 650px;
+	min-height: 550px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -339,4 +339,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-collapse.collapse.in {
   background-color: rgba(0,0,0,0.5);
+}
+
+.portfolio-title {
+  font-size: 50px;
+}
+
+.portfolio-div {
+  margin-top: 20px;
 }
