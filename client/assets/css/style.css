@@ -320,6 +320,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 35%;
 }
 
+.featurePic.drawmie {
+  width: 40%;
+}
+
 
 .feature-description {
   float: right;
@@ -330,6 +334,7 @@ h1, h2, h3, h4, h5, h6 {
 .feature-description p{
   max-height: 50%;
   font-size: 1.5vw;
+  text-align: left;
 }
 
 .last-feature {
@@ -347,4 +352,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .portfolio-div {
   margin-top: 20px;
+}
+.navbar-fixed-top {
+  -webkit-box-shadow: inset -5px 52px 80px -54px rgba(0,0,0,0.75);
+-moz-box-shadow: inset -5px 52px 80px -54px rgba(0,0,0,0.75);
+box-shadow: inset -5px 52px 80px -54px rgba(0,0,0,1);
+}
+
+.fa-github:before {
+  font-size: 30px;
+}
+
+.githubLink{
+  color: #4a4a4a;
 }
