@@ -392,8 +392,16 @@ background-color: rgba(0,0,0,0.1);
   letter-spacing: -1px;
 }
 
+.logo:hover{
+  color: #b5b6b6;
+}
 
 .navItem{
   padding-top: 30px !important;
   padding-bottom: 30px !important;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #b5b6b6 !important;
 }
