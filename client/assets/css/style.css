@@ -361,13 +361,14 @@ box-shadow: inset -5px 72px 80px -54px rgba(0,0,0, 1);
 background-color: rgba(0,0,0,0.1);
 }
 
-.fa-github:before {
-  font-size: 30px;
+.fa { 
+  font-size: 30px !important;
 }
 
-.githubLink{
-  color: #4a4a4a;
+.fa:hover {
+  color: #989894 !important;
 }
+
 
 .logo{
   margin: 10px 0px 0px 0px;
