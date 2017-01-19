@@ -23,7 +23,7 @@
 }
 
 ::selection {
-    background: #fff;
+    background: #ACCEF7;
     color: #000;
     text-shadow: none;
 }
@@ -42,15 +42,15 @@
 }
 
 .centered {
-	text-align: center
+  text-align: center
 }
 
 .mt {
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
 .mb {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 /* ==========================================================================
@@ -68,32 +68,32 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 700;
+  font-weight: 700;
     color: #4a4a4a;
 }
 
 
 .navbar-brand {
-	font-weight: 700;
+  font-weight: 700;
 }
 
 .navbar-default .navbar-brand {
-	color: #FFF;
+  color: #FFF;
 }
 
 .navbar-default {
-	background-color: transparent;
-	border-color: transparent;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #FFF;
-	background-color: transparent;
-	border-bottom: 2px solid #FFF;
+  color: #FFF;
+  background-color: transparent;
+  border-bottom: 2px solid #FFF;
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #FFF;
+  color: #FFF;
 }
 
 /* ==========================================================================
@@ -101,14 +101,14 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/backColor.jpg) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 250px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 650px;
-	width: 100%;
+  background: url(../img/backColor.jpg) no-repeat center top;
+  margin-top: -70px;
+  padding-top: 250px;
+  text-align:center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 650px;
+  width: 100%;
 
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
@@ -130,53 +130,53 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 10px;
     padding-bottom: 20px;
     letter-spacing: 4px;
-    font-size: 59px;
+    font-size: 66px;
     font-weight: bold;
 }
 
 
 
 #headerwrap h4 {
-	font-weight: 400;
-	color: #ffffff
+  font-weight: 400;
+  color: #ffffff
 }
 
 #social {
-	padding-top: 15px;
-	padding-bottom: 15px;
-	background-color: #f2f2f2;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #f2f2f2;
 }
 
 #social i {
-	font-size: 25px;
-	color: #4a4a4a
+  font-size: 25px;
+  color: #4a4a4a
 }
 
 #social i:hover {
-	color: #FFF
+  color: #FFF
 }
 
 #footerwrap {
-	padding-top: 25px;
-	padding-bottom: 15px;
-	background-color: #2f2f2f;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  background-color: #2f2f2f;
 }
 
 #footerwrap p {
-	color: #f2f2f2;
-	margin-left: 10px;
+  color: #f2f2f2;
+  margin-left: 10px;
 }
 
-#workwrap {	
-	background: url(../img/work.jpg) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 175px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 550px;
-	width: 100%;
-	
+#workwrap { 
+  background: url(../img/work.jpg) no-repeat center top;
+  margin-top: -70px;
+  padding-top: 175px;
+  text-align:center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 550px;
+  width: 100%;
+  
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -189,29 +189,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #workwrap h1 {
-	color:#ffffff;
-	padding-top: 10px;
-	padding-bottom: 20px;
-	letter-spacing: 4px;
-	font-size: 80px;
-	font-weight: bold;
+  color:#ffffff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  letter-spacing: 4px;
+  font-size: 80px;
+  font-weight: bold;
 }
 
 #workwrap h4 {
-	font-weight: 400;
-	color: #ffffff
+  font-weight: 400;
+  color: #ffffff
 }
 
-#aboutwrap {	
-	background: url(../img/school.jpg) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 250px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 550px;
-	width: 100%;
-	
+#aboutwrap {  
+  background: url(../img/school.jpg) no-repeat center top;
+  margin-top: -70px;
+  padding-top: 250px;
+  text-align:center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 550px;
+  width: 100%;
+  
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -226,11 +226,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Gallery */
 .gallery {
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 .gallery img:hover {
-	opacity: 0.4;
+  opacity: 0.4;
 }
 
 /*MY CSS CHANGES*/
@@ -281,7 +281,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .modal-section-title{
-  font-size: 2.3vw;
+  font-size: 36px;
   left: 45%;
 }
 
@@ -340,6 +340,7 @@ h1, h2, h3, h4, h5, h6 {
 .last-feature {
   border-bottom: 1px solid #d5d5d5;
   padding-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .navbar-collapse.collapse.in {
@@ -413,15 +414,20 @@ a:hover{
 }
 
 .aboutName{
-  font-size: 40px;
+  font-size: 44px;
+  margin-bottom: 20px;
+  margin-top: 15px
 }
 
 .aboutMe p{
   font-size: 20px;
   text-align: left;
+  line-height: 25px;
+  margin-bottom: 23px;
+  text-align: left;
 }
 
 .aboutMe p:nth-child(5){
-  text-align: center;
+/*   text-align: left; */
 }
 
