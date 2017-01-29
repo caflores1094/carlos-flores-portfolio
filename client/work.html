@@ -75,22 +75,28 @@
     <div class="row centered mt mb portfolio-div">
       <h1 class="portfolio-title">My Portfolio</h1>
       
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
+      <div class="col-lg-6 col-md-6 col-sm-6 gallery">
         <a data-toggle="modal" data-target="#semblyModal"><img src="assets/img/portfolio/sembly.jpg" class="appPrev"></a>
         <p class="app-title">Sembly</p>
         <p class="app-brief">Social event planning and coordination for groups mobile app</p>
       </div>
 
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
+      <div class="col-lg-6 col-md-6 col-sm-6 gallery">
         <a data-toggle="modal" data-target="#drawmieModal"><img src="assets/img/portfolio/drawmie2.png" class="appPrev"></a>
         <p class="app-title">Drawmie</p>
         <p class="app-brief">Real-time communication and whiteboarding for groups</p>
       </div>
 
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
+      <div class="col-lg-6 col-md-6 col-sm-6 gallery">
         <a data-toggle="modal" data-target="#shopvrModal"><img src="assets/img/portfolio/shopvr.jpg" class="appPrev"></a>
         <p class="app-title">ShopVR</p>
         <p class="app-brief">Shopping aid that provides a social and unique shopping experience</p>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-6 gallery">
+        <a data-toggle="modal" data-target="#lazerModal"><img src="assets/img/portfolio/lazerScreenShots/lazerLostLife.png" class="appPrev"></a>
+        <p class="app-title">Lazer</p>
+        <p class="app-brief">Single Player 2D survival shooter game</p>
       </div>
       <!-- RECALL OFFSET TO HAVE SPACE BEFORE AND AFTER COLUMN
       <div class="col-lg-5 col-lg-offset-1 col-md-4 col-sm-4 gallery">
@@ -308,6 +314,112 @@
             <h5>Create Masterpieces</h5>
             <p>
               Drawmie gives you complete artistic freedom with its drawing tools. Select from unlimited colors, different stroke widths, fill style, color transparency, and shape possiblities. 
+            </p>
+          </div>
+        </div>
+
+        <div class="features">
+          <img src="assets/img/portfolio/chatAndVC.png" class="featurePic drawmie">
+          <div class="feature-description">
+            <h5>Real-time Messaging and Video Chat</h5>
+            <p>
+              Video chat and real time message with your collaboraters to be on the same page. Tackle problems together or challenge each other to solve toy problems.
+            </p>
+          </div>
+        </div>
+
+        <div class="features">
+          <img src="assets/img/portfolio/createRoomDrawmie.png" class="featurePic drawmie">
+          <div class="feature-description">
+            <h5>Create a New Board</h5>
+            <p>
+              Create a new board to collaborate with others. Add users by email, give users read-only or write permissions, specify a private or public room. 
+            </p>
+          </div>
+        </div>
+
+        <div class="features">
+          <img src="assets/img/portfolio/drawmie.png" class="featurePic drawmie">
+          <div class="feature-description">
+            <h5>View your Saved Rooms</h5>
+            <p>
+              Want to talk to the same group from last week? View your previously created and saved rooms and reconnect with your peers.
+            </p>
+          </div>
+        </div>
+
+        <div class="features">
+          <img src="assets/img/portfolio/loadYourBoard.png" class="featurePic drawmie">
+          <div class="feature-description">
+            <h5>Load your Personal Creations</h5>
+            <p>
+              Wish to share an awesome creation with your peers? View your previously saved creations and load them into any room to show them off.
+            </p>
+          </div>
+        </div>
+
+        <div class="features last-feature">
+          <img src="assets/img/portfolio/saveBoardToRoom.png" class="featurePic drawmie">
+          <div class="feature-description">
+            <h5>Save Creation to the Room</h5>
+            <p>
+              Like what you've made? Wish to save it as a reference for your entire group? Save the creation to the room's saved boards.
+            </p>
+          </div>
+        </div>
+
+        <div class="tech-stack">
+          <h5 class="modal-section-title">Tech Stack</h5>
+            <ul class="tech-stack-description"> 
+              <li>
+                Constructed a group video chat platform with PeerJS to streamline the creation of a peer to peer network
+              </li>
+              <li>
+                Configured real time chatrooms with socket.io in order to handle multiple concurrent data streams
+              </li>
+              <li>
+                Socket.io to create real-time rendering on a shared HTML5 canvas element amongst users
+              </li>
+              <li>
+                Front-end: built with React to render separate Dashboard, Board Creation, and actual Board Usage views
+              </li>
+              <li>
+                Backend: Designed MongoDB schema using Mongoose in order to to persist large text objects of varying size.
+              </li>
+              <li>
+                Integrated Express and NodeJS to serve data.
+              </li>
+              <li>
+                Test Driven Development with the use of Mocha and Chai
+              </li>
+            </ul>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- LAZER -->
+<div id="lazerModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Lazer</h4>
+        <!-- <a class="githubLink" href="https://github.com/somnolentsoylent/badcheese">Github Link</a> -->
+      </div>
+      <div class="modal-body">
+
+        <div class="features">
+          <img src="assets/img/portfolio/lazerScreenShots/lazerDescription.png" class="featurePic drawmie">
+          <div class="feature-description">
+            <h5>Explore the Manual</h5>
+            <p>
+              Learn about the gameplay! Control your character with arrow keys, shoot with spacebar. Learn about the different types of enemies, their abilites, how to gain lives, and more!
             </p>
           </div>
         </div>
