@@ -1,14 +1,14 @@
 # carlos-flores-portfolio
 
-This is a my portfolio website. Checkout my bio, resume, or examples of some of my works.
+This is my portfolio website. Checkout my bio, resume, or examples of some of my works.
 
 Checkout the deployed site: [carlosalbertoflores.com](http://carlosalbertoflores.com)
 
 ## Getting Started
 
 Clone the repo onto your own machine
-npm install
-npm start
+* npm install
+* npm start
 
 ### Prerequisites
 
